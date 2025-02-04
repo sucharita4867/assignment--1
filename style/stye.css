@@ -115,10 +115,17 @@ button{
 
 #video-section{
     text-align: center;
-    
+    font-family: Azeret Mono;
+    /* border: 4px solid red; */
+    margin: 20px 150px 20px 150px;
+    border-radius: 16px;
 }
 .video{
     border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    margin: 10px 0px 10px 0px;
+    padding: 30px;
 }
+
 
 
