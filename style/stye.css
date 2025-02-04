@@ -127,5 +127,37 @@ button{
     padding: 30px;
 }
 
+/* html css js style */
 
+#png-section{
+    text-align: center;
+    /* border: 3px solid red; */
+    margin: 20px 150px 20px 150px;
+    font-family: Azeret Mono;
+
+}
+.all-png{
+    display: flex;
+    /* border: 4px blue solid; */
+    gap: 24px;
+    text-align: start;
+    height: 360px;
+}
+
+.html{
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 20px;
+}
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+}
+.JavaScript{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+    /* border-bottom: 1px solid rgba(13, 19, 33, 0.2); */
+}
 
