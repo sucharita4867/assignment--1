@@ -160,4 +160,8 @@ padding: 20px;
     padding: 20px;
     /* border-bottom: 1px solid rgba(13, 19, 33, 0.2); */
 }
+.learn-more{
+    color: rgba(0, 0, 0, 0.267);
+    font-size: 14px;
+}
 
