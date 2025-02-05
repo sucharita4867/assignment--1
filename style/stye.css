@@ -1,4 +1,33 @@
 /* header style */
+
+#header{
+    margin: 20px 150px 20px 150px;
+}
+
+.Awlad{
+    text-align: start;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 950px;
+    padding: 5px;
+    font-family: Azeret Mono;
+    margin: 9px 5px;
+    font-size: 10px;
+    
+}
+
+.download{
+    /* font-size: 5px; */
+    box-sizing: border-box;
+    border: 1px solid rgba(243, 244, 247, 0.986);
+    border-radius: 8px;
+    opacity: 0.8;
+    gap: 5px;
+    border: 2px solid black;
+     color: rgb(13, 19, 33); 
+
+}
+/* header style */
 #Hero{
     height: 580px;
     background-image: url("../assets/Hero-bg.png");
