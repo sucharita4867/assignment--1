@@ -73,7 +73,6 @@
     color: rgba(0, 0, 0, 0.411);
 }
 .body-1{
-    display: grid;
     text-align: center;
     margin: 60px 150px 60px 150px;
     font-size: 20px;
@@ -362,7 +361,25 @@ padding: 20px;
     }
 
     .body-1{
-        grid-column: span 1;
-        border: 2px solid red;
+        font-size: 10px;
+        margin: 10px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .high code{
+        font-size: 15px;
+    }
+    .son-1{
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    .coding{
+        font-size: 14px;
+    }
+    .More{
+        border-radius: 4px;
     }
  }
