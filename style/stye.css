@@ -399,5 +399,12 @@ padding: 20px;
     } */
 
     /* son-3 style */
-    
+    .son-3{
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+        gap: 8px;
+    }
  }
