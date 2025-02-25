@@ -39,7 +39,7 @@
     color: #0D1321;
     gap: 0px;
     padding: 20px;
-    display: flex;
+    /* display: flex; */
     font-size: 20px;
 }
 .heading{
@@ -345,10 +345,18 @@ padding: 20px;
         width: 100px;
     }
     .hero{
-        border: 2px solid red;
-        background-image: none;
+        background-image: 100%;
+        padding: none;
     }
-    .image-1{
-        
+    .heading{
+        margin: 5px;
+        font-size: 17px;
+    }
+    .have{
+        margin: 3px;
+        font-size: 15px;
+    }
+    .button{
+        padding: 15px 20px;
     }
  }
