@@ -338,11 +338,17 @@ padding: 20px;
     .Awlad{
         flex-direction: column;
         gap: 20px;
-        /* border: 2px solid red; */
         align-content: center;
         flex-wrap: wrap;
     }
     .download{
         width: 100px;
+    }
+    .hero{
+        border: 2px solid red;
+        background-image: none;
+    }
+    .image-1{
+        
     }
  }
