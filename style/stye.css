@@ -1,6 +1,6 @@
 /* header style */
 
-#header{
+.header{
     margin: 20px 150px 20px 150px;
 }
 
@@ -31,7 +31,7 @@
 .have{
     color: rgba(0, 0, 0, 0.411);
 }
-#Hero{
+.hero{
     height: 580px;
     background-image: url("../assets/Hero-bg.png");
     text-align: center;
@@ -72,7 +72,7 @@
 .high{
     color: rgba(0, 0, 0, 0.411);
 }
-#body-1{
+.body-1{
     text-align: center;
     margin: 60px 150px 60px 150px;
     font-size: 20px;
@@ -183,7 +183,7 @@ p{
 .imspiration{
     color: rgba(0, 0, 0, 0.726);
 }
-#video-section{
+.video-section{
     text-align: center;
     font-family: Azeret Mono;
     margin: 20px 150px 20px 150px;
@@ -211,7 +211,7 @@ p{
 .markup{
     color: rgba(0, 0, 0, 0.411);
 }
-#png-section{
+.png-section{
     text-align: center;
     /* border: 3px solid red; */
     margin: 20px 150px 20px 150px;
@@ -252,7 +252,7 @@ padding: 20px;
 .web{
     color: rgba(0, 0, 0, 0.411);
 }
-#targer-section{
+.targer-section{
     text-align: center;
     margin: 20px 150px 20px 150px;
     font-family: Azeret Mono;
@@ -306,7 +306,7 @@ padding: 20px;
 
  /* support-section style */
 
- #support-section{
+ .support-section{
     background-image: url("../assets/handshake.jpg");
     border-radius: 16px;
     margin: 20px 150px 20px 150px;
@@ -316,7 +316,7 @@ padding: 20px;
 
 
 
- #footer{
+ .footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -326,4 +326,16 @@ padding: 20px;
     padding: 20px 150px 20px 150px;
     margin: 3px 0px;
     font-family: Azeret Mono;
+ }
+
+ 
+/* Responsive style */
+ .hide{
+    display: none;
+ }
+
+ @media screen and (max-width:576px) {
+    .header{
+        
+    }
  }
