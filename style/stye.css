@@ -216,11 +216,14 @@ p{
     /* border: 3px solid red; */
     margin: 20px 150px 20px 150px;
     font-family: Azeret Mono;
-
+    /* display: flex; */
+}
+.containt{
+    display: flex;
+    flex-direction: column;
 }
 .all-png{
     display: flex;
-
     gap: 24px;
     text-align: start;
     height: 360px;
