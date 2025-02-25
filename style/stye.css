@@ -73,6 +73,7 @@
     color: rgba(0, 0, 0, 0.411);
 }
 .body-1{
+    display: grid;
     text-align: center;
     margin: 60px 150px 60px 150px;
     font-size: 20px;
@@ -358,5 +359,10 @@ padding: 20px;
     }
     .button{
         padding: 15px 20px;
+    }
+
+    .body-1{
+        grid-column: span 1;
+        border: 2px solid red;
     }
  }
