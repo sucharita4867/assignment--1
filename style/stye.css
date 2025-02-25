@@ -17,14 +17,14 @@
 }
 
 .download{
-    /* font-size: 5px; */
+    font-size: 13px;
     box-sizing: border-box;
     border: 1px solid rgba(243, 244, 247, 0.986);
     border-radius: 8px;
     opacity: 0.8;
     gap: 5px;
     border: 2px solid black;
-     color: rgb(13, 19, 33); 
+    color: rgb(13, 19, 33); 
 
 }
 /* header style */
@@ -335,7 +335,14 @@ padding: 20px;
  }
 
  @media screen and (max-width:576px) {
-    .header{
-        
+    .Awlad{
+        flex-direction: column;
+        gap: 20px;
+        /* border: 2px solid red; */
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .download{
+        width: 100px;
     }
  }
