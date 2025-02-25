@@ -411,4 +411,7 @@ padding: 20px;
     .video-section{
         margin: 17px;
     }
+    .video{
+        width: 100%;
+    }
  }
